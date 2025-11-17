@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ASDDV-16.000MHZ-LR-T
+D Inductor RF Wirewound 8.2uH 5% 7.9MHz 20Q-Factor Ceramic 0.15A 10.7Ohm DCR 1008 T/R
+K
+F https://abracon.com/datasheets/ASDDV.pdf
+$ENDCMP
+#
+#End Doc Library
