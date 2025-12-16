@@ -23,6 +23,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "usbd_hid.h"
+#include "macropad.h"
+#include "keymap.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -48,31 +50,13 @@ SPI_HandleTypeDef hspi5;
 /* USER CODE BEGIN PV */
 extern USBD_HandleTypeDef hUsbDeviceFS;
 
-typedef struct {
-	uint8_t MODIFIER;
-	uint8_t RESERVED;
-	uint8_t KEYCODE1;
-	uint8_t KEYCODE2;
-	uint8_t KEYCODE3;
-	uint8_t KEYCODE4;
-	uint8_t KEYCODE5;
-	uint8_t KEYCODE6;
-}keyRepStruct;
+//keyRepStruct KeyHIDRepStruct = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
-keyRepStruct KeyHIDRepStruct = {0, 0, 0, 0, 0, 0, 0, 0};
+//volatile uint16_t GPIO_MASK = 0b0000000000000000;
+extern USBD_HandleTypeDef hUsbDeviceFS;
+keyRepStruct KeyHIDRepStruct = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+volatile uint16_t GPIO_MASK = 0b0000000000000000;
 
-struct singleKeyRepStruct{
-	uint8_t MODFIIER;
-	uint8_t KEYCODE;
-};
-
-
-
-
-volatile uint16_t PressedKey = 0b0000000000000000;
-volatile uint16_t PressedKeyPortB = 0b0000000000000000;
-volatile uint16_t swA6 = 0b0000000000000000;
-volatile uint16_t swA7 = 0b0000000000000000;
 
 
 /* USER CODE END PV */
@@ -88,7 +72,32 @@ static void MX_SPI5_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void HID_Task(void)
+{
+    static uint16_t last_GPIO_MASK = 0xFFFF;
 
+    uint16_t changed = GPIO_MASK ^ last_GPIO_MASK;
+    if (!changed) return;
+
+    KeyHIDRepStruct.MODIFIER = 0;
+    KeyHIDRepStruct.KEYCODE1 = 0;
+    KeyHIDRepStruct.KEYCODE2 = 0;
+    KeyHIDRepStruct.KEYCODE3 = 0;
+    KeyHIDRepStruct.KEYCODE4 = 0;
+    KeyHIDRepStruct.KEYCODE5 = 0;
+    KeyHIDRepStruct.KEYCODE6 = 0;
+
+    for (int i = 1; i < 12; i++) {
+        if (!(GPIO_MASK & MASK_Table[i])) {
+            KeyHIDRepStruct.KEYCODE1 = MASK_KEYMAP[i];
+            break;
+        }
+    }
+
+    USBD_HID_SendReport(&hUsbDeviceFS, (uint8_t*)&KeyHIDRepStruct, sizeof(KeyHIDRepStruct));
+
+    last_GPIO_MASK = GPIO_MASK;
+}
 /* USER CODE END 0 */
 
 /**
@@ -99,12 +108,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-	struct singleKeyRepStruct sw[12];
 
-	for(uint8_t i = 0; i <= 11; i++){
-		sw[0].KEYCODE = 0x04 + i;
-		sw[0].MODFIIER = 0;
-	}
+	KeyHIDRepStruct.KEYCODE1 = 0x00;
 
 
   /* USER CODE END 1 */
@@ -142,25 +147,9 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	  swA6 = GPIOA->IDR & (1 << 6); // Port A Pins: 6
-	  swA7 = GPIOA->IDR & (1 << 7);	// Port A Pins: 7
+	  GPIO_MASK = PORT_shifting();
+	  HID_Task();
 
-	  PressedKeyPortB = (swA6 << 6) | (swA7 << 7);	// 0b0000000011000000
-
-	  PressedKey = GPIOB->IDR; 							// 0b0011011100111110
-	  PressedKey = PressedKey & PressedKeyPortB; 					// 0b0011011111111110
-	  PressedKey = PressedKey & ((GPIOB->IDR & (1 << 12)) << 11);	// 0b0010111111111110
-	  PressedKey = PressedKey & ((GPIOB->IDR & (1 << 13)) << 12);	// 0b0001111111111110
-
-	  for(uint8_t i = 1; i <= 12; i++) {
-		  if(PressedKey & (1 << i)) {
-			  KeyHIDRepStruct.MODIFIER = sw[i].MODFIIER;
-			  KeyHIDRepStruct.KEYCODE1 = sw[i].KEYCODE;
-
-		  }
-	  }
-
-	  USBD_HID_SendReport(&hUsbDeviceFS, (uint8_t *) &KeyHIDRepStruct, 8);
   }
   /* USER CODE END 3 */
 }

@@ -1,0 +1,16 @@
+
+typedef enum {
+    KEY_A,
+    KEY_B,
+    KEY_C,
+    KEY_SHIFT,
+    NO_MODIFIER
+} Key;
+
+static Key modifierLookup[] = {
+    [KEY_A] = KEY_SHIFT,
+    [KEY_B] = KEY_SHIFT,
+    [KEY_C] = NO_MODIFIER,
+    [KEY_SHIFT] = NO_MODIFIER,
+    [NO_MODIFIER] = NO_MODIFIER
+};

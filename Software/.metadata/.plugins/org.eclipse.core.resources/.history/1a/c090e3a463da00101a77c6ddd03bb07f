@@ -1,0 +1,22 @@
+/*
+ * macropad.c
+ *
+ *  Created on: 24 Nov 2025
+ *      Author: jangr
+ */
+
+#include "macropad.h"
+
+uint16_t PORT_shifting(){
+	uint16_t PORTB = GPIOB->IDR; // & 0b0011011100111110;
+	PORTB = PORTB & 0b1111111100111111;
+
+	uint16_t PORTA = GPIOA->IDR; // & 0b0000000011000000;
+	PORTA = PORTA & 0b0000000011000000;
+
+	uint16_t PORT = PORTA | PORTB;
+	return PORT;
+}
+
+
+

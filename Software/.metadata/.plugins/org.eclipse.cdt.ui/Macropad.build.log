@@ -1,10 +1,10 @@
-12:03:17 **** Incremental Build of configuration Debug for project Macropad ****
+11:33:49 **** Incremental Build of configuration Debug for project Macropad ****
 make -j16 all 
 arm-none-eabi-size  Macropad.elf 
    text	   data	    bss	    dec	    hex	filename
-  27920	    276	   4276	  32472	   7ed8	Macropad.elf
+  27928	    352	   4272	  32552	   7f28	Macropad.elf
 Finished building: default.size.stdout
  
 
-12:03:17 Build Finished. 0 errors, 0 warnings. (took 293ms)
+11:33:49 Build Finished. 0 errors, 0 warnings. (took 292ms)
 

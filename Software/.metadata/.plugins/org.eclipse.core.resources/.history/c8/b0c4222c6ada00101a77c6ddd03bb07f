@@ -1,0 +1,53 @@
+/*
+ * macropad.c
+ *
+ *  Created on: 24 Nov 2025
+ *      Author: jangr
+ */
+
+#include "macropad.h"
+
+
+uint16_t PORT_shifting(){
+	uint16_t PORTB = GPIOB->IDR; // & 0b0011011100111110;
+	PORTB = PORTB & 0b1111111100111111;
+
+	uint16_t PORTA = GPIOA->IDR; // & 0b0000000011000000;
+	PORTA = PORTA & 0b0000000011000000;
+
+	uint16_t PORT = PORTA | PORTB;
+	return PORT;
+}
+
+
+extern USBD_HandleTypeDef hUsbDeviceFS;
+keyRepStruct KeyHIDRepStruct = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+volatile uint16_t GPIO_MASK = 0b0000000000000000;
+void HID_Task(void)
+{
+    static uint16_t last_GPIO_MASK = 0xFFFF;
+
+    uint16_t changed = GPIO_MASK ^ last_GPIO_MASK;
+    if (!changed) return;
+
+    KeyHIDRepStruct.MODIFIER = 0;
+    KeyHIDRepStruct.KEYCODE1 = 0;
+    KeyHIDRepStruct.KEYCODE2 = 0;
+    KeyHIDRepStruct.KEYCODE3 = 0;
+    KeyHIDRepStruct.KEYCODE4 = 0;
+    KeyHIDRepStruct.KEYCODE5 = 0;
+    KeyHIDRepStruct.KEYCODE6 = 0;
+
+    for (int i = 1; i < 12; i++) {
+        if (!(GPIO_MASK & MASK_Table[i])) {
+            KeyHIDRepStruct.KEYCODE1 = MASK_KEYMAP[i];
+            break;
+        }
+    }
+
+    USBD_HID_SendReport(&hUsbDeviceFS, (uint8_t*)&KeyHIDRepStruct, sizeof(KeyHIDRepStruct));
+
+    last_GPIO_MASK = GPIO_MASK;
+}
+
+
