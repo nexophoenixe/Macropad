@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TLC59283RGER")(type "KiCad")(uri "${KIPRJMOD}/lib/TLC59283RGER")(options "")(descr ""))
+  (lib (name "MP-2016-1100-50-70")(type "KiCad")(uri "${KIPRJMOD}/lib/MP-2016-1100-50-70")(options "")(descr ""))
+  (lib (name "CPG-03-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/CPG-03-SMT-TR")(options "")(descr ""))
+  (lib (name "2329497-2")(type "KiCad")(uri "${KIPRJMOD}/lib/2329497-2")(options "")(descr ""))
+  (lib (name "s103p006bb100")(type "KiCad")(uri "${KIPRJMOD}/lib/s103p006bb100")(options "")(descr ""))
+  (lib (name "103P012BB100")(type "KiCad")(uri "${KIPRJMOD}/lib/Ampfenol mezzani/103P012BB100")(options "")(descr ""))
+  (lib (name "103R012BB100")(type "KiCad")(uri "${KIPRJMOD}/lib/Ampfenol mezzani/103R012BB100")(options "")(descr ""))
+  (lib (name "BC847BS")(type "KiCad")(uri "${KIPRJMOD}/lib/BC847BS")(options "")(descr ""))
+)

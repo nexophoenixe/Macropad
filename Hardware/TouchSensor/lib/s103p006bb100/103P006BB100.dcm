@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 103P006BB100
+D Micro BTB Connector, P=0.35mm, Stacking height=0.6mm, Vertical orientation, Plug, 6P
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/103_series_btb_micropitch.pdf
+$ENDCMP
+#
+#End Doc Library

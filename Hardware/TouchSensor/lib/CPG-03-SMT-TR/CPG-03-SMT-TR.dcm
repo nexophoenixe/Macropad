@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CPG-03-SMT-TR
+D 20 gf Initial Operating Force, 40 gf Mid Compression Operating Force, Spring Loaded, Gold Plated, Surface Mount, Pogo Pin
+K
+F https://www.sameskydevices.com/product/resource/supplyframepdf/cpg-03-smt-tr.pdf
+$ENDCMP
+#
+#End Doc Library

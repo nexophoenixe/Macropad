@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC847BS,115
+D Nexperia BC847BS,115 Dual NPN Transistor, 100 mA, 45 V, 6-Pin SOT-363
+K
+F https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf
+$ENDCMP
+#
+#End Doc Library

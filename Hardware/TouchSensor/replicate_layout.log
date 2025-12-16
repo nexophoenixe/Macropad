@@ -1,0 +1,741 @@
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, Jul 16 2024, 08:01:06) [MSC v.1939 64 bit (AMD64)]'
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.4
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.3
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x0000020ACA5AFD00>
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with LED101 as a reference
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'LED101'
+Located on: ['LED_CTS', 'AdressLED1']
+With filenames: ['LED_CTS.kicad_sch', 'AdressLED.kicad_sch']
+With sheet_id:['LED_CTS', 'AdressLED1']
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('LED132', ['LED_CTS', 'AdressLED32']), ('LED131', ['LED_CTS', 'AdressLED31']), ('LED130', ['LED_CTS', 'AdressLED30']), ('LED129', ['LED_CTS', 'AdressLED29']), ('LED128', ['LED_CTS', 'AdressLED28']), ('LED127', ['LED_CTS', 'AdressLED27']), ('LED126', ['LED_CTS', 'AdressLED26']), ('LED125', ['LED_CTS', 'AdressLED25']), ('LED124', ['LED_CTS', 'AdressLED24']), ('LED123', ['LED_CTS', 'AdressLED23']), ('LED122', ['LED_CTS', 'AdressLED22']), ('LED121', ['LED_CTS', 'AdressLED21']), ('LED120', ['LED_CTS', 'AdressLED20']), ('LED119', ['LED_CTS', 'AdressLED19']), ('LED118', ['LED_CTS', 'AdressLED18']), ('LED117', ['LED_CTS', 'AdressLED17']), ('LED116', ['LED_CTS', 'AdressLED16']), ('LED115', ['LED_CTS', 'AdressLED15']), ('LED114', ['LED_CTS', 'AdressLED14']), ('LED113', ['LED_CTS', 'AdressLED13']), ('LED112', ['LED_CTS', 'AdressLED12']), ('LED111', ['LED_CTS', 'AdressLED11']), ('LED110', ['LED_CTS', 'AdressLED10']), ('LED109', ['LED_CTS', 'AdressLED9']), ('LED108', ['LED_CTS', 'AdressLED8']), ('LED107', ['LED_CTS', 'AdressLED7']), ('LED106', ['LED_CTS', 'AdressLED6']), ('LED105', ['LED_CTS', 'AdressLED5']), ('LED104', ['LED_CTS', 'AdressLED4']), ('LED103', ['LED_CTS', 'AdressLED3']), ('LED102', ['LED_CTS', 'AdressLED2']), ('LED101', ['LED_CTS', 'AdressLED1'])]
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'AdressLED1', file:'AdressLED.kicad_sch'
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['LED_CTS', 'AdressLED10'], ['LED_CTS', 'AdressLED11'], ['LED_CTS', 'AdressLED12'], ['LED_CTS', 'AdressLED13'], ['LED_CTS', 'AdressLED14'], ['LED_CTS', 'AdressLED15'], ['LED_CTS', 'AdressLED16'], ['LED_CTS', 'AdressLED17'], ['LED_CTS', 'AdressLED18'], ['LED_CTS', 'AdressLED19'], ['LED_CTS', 'AdressLED2'], ['LED_CTS', 'AdressLED20'], ['LED_CTS', 'AdressLED21'], ['LED_CTS', 'AdressLED22'], ['LED_CTS', 'AdressLED23'], ['LED_CTS', 'AdressLED24'], ['LED_CTS', 'AdressLED25'], ['LED_CTS', 'AdressLED26'], ['LED_CTS', 'AdressLED27'], ['LED_CTS', 'AdressLED28'], ['LED_CTS', 'AdressLED29'], ['LED_CTS', 'AdressLED3'], ['LED_CTS', 'AdressLED30'], ['LED_CTS', 'AdressLED31'], ['LED_CTS', 'AdressLED32'], ['LED_CTS', 'AdressLED4'], ['LED_CTS', 'AdressLED5'], ['LED_CTS', 'AdressLED6'], ['LED_CTS', 'AdressLED7'], ['LED_CTS', 'AdressLED8'], ['LED_CTS', 'AdressLED9']]
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['LED_CTS', 'AdressLED1']
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(2342, 111)
+09-08 19:42:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1903, 111)
+09-08 19:43:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'AdressLED1', file:'AdressLED.kicad_sch'
+09-08 19:43:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['LED_CTS', 'AdressLED10'], ['LED_CTS', 'AdressLED11'], ['LED_CTS', 'AdressLED12'], ['LED_CTS', 'AdressLED13'], ['LED_CTS', 'AdressLED14'], ['LED_CTS', 'AdressLED15'], ['LED_CTS', 'AdressLED16'], ['LED_CTS', 'AdressLED17'], ['LED_CTS', 'AdressLED18'], ['LED_CTS', 'AdressLED19'], ['LED_CTS', 'AdressLED2'], ['LED_CTS', 'AdressLED20'], ['LED_CTS', 'AdressLED21'], ['LED_CTS', 'AdressLED22'], ['LED_CTS', 'AdressLED23'], ['LED_CTS', 'AdressLED24'], ['LED_CTS', 'AdressLED25'], ['LED_CTS', 'AdressLED26'], ['LED_CTS', 'AdressLED27'], ['LED_CTS', 'AdressLED28'], ['LED_CTS', 'AdressLED29'], ['LED_CTS', 'AdressLED3'], ['LED_CTS', 'AdressLED30'], ['LED_CTS', 'AdressLED31'], ['LED_CTS', 'AdressLED32'], ['LED_CTS', 'AdressLED4'], ['LED_CTS', 'AdressLED5'], ['LED_CTS', 'AdressLED6'], ['LED_CTS', 'AdressLED7'], ['LED_CTS', 'AdressLED8'], ['LED_CTS', 'AdressLED9']]
+09-08 19:43:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['LED_CTS', 'AdressLED1']
+09-08 19:43:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'AdressLED1', file:'AdressLED.kicad_sch'
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['LED_CTS', 'AdressLED10'], ['LED_CTS', 'AdressLED11'], ['LED_CTS', 'AdressLED12'], ['LED_CTS', 'AdressLED13'], ['LED_CTS', 'AdressLED14'], ['LED_CTS', 'AdressLED15'], ['LED_CTS', 'AdressLED16'], ['LED_CTS', 'AdressLED17'], ['LED_CTS', 'AdressLED18'], ['LED_CTS', 'AdressLED19'], ['LED_CTS', 'AdressLED2'], ['LED_CTS', 'AdressLED20'], ['LED_CTS', 'AdressLED21'], ['LED_CTS', 'AdressLED22'], ['LED_CTS', 'AdressLED23'], ['LED_CTS', 'AdressLED24'], ['LED_CTS', 'AdressLED25'], ['LED_CTS', 'AdressLED26'], ['LED_CTS', 'AdressLED27'], ['LED_CTS', 'AdressLED28'], ['LED_CTS', 'AdressLED29'], ['LED_CTS', 'AdressLED3'], ['LED_CTS', 'AdressLED30'], ['LED_CTS', 'AdressLED31'], ['LED_CTS', 'AdressLED32'], ['LED_CTS', 'AdressLED4'], ['LED_CTS', 'AdressLED5'], ['LED_CTS', 'AdressLED6'], ['LED_CTS', 'AdressLED7'], ['LED_CTS', 'AdressLED8'], ['LED_CTS', 'AdressLED9']]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: [['LED_CTS', 'AdressLED10'], ['LED_CTS', 'AdressLED11'], ['LED_CTS', 'AdressLED12'], ['LED_CTS', 'AdressLED13'], ['LED_CTS', 'AdressLED14'], ['LED_CTS', 'AdressLED15'], ['LED_CTS', 'AdressLED16'], ['LED_CTS', 'AdressLED17'], ['LED_CTS', 'AdressLED18'], ['LED_CTS', 'AdressLED19'], ['LED_CTS', 'AdressLED2'], ['LED_CTS', 'AdressLED20'], ['LED_CTS', 'AdressLED21'], ['LED_CTS', 'AdressLED22'], ['LED_CTS', 'AdressLED23'], ['LED_CTS', 'AdressLED24'], ['LED_CTS', 'AdressLED25'], ['LED_CTS', 'AdressLED26'], ['LED_CTS', 'AdressLED27'], ['LED_CTS', 'AdressLED28'], ['LED_CTS', 'AdressLED29'], ['LED_CTS', 'AdressLED3'], ['LED_CTS', 'AdressLED30'], ['LED_CTS', 'AdressLED31'], ['LED_CTS', 'AdressLED32'], ['LED_CTS', 'AdressLED4'], ['LED_CTS', 'AdressLED5'], ['LED_CTS', 'AdressLED6'], ['LED_CTS', 'AdressLED7'], ['LED_CTS', 'AdressLED8'], ['LED_CTS', 'AdressLED9']]
+on level: ['LED_CTS', 'AdressLED1']
+with tracks=True, zone=True, text=True, text=True, intersecting=True, remove=False, locked footprints=False, group_only=False
+09-08 19:43:04 root 332:updating GUI message: 'Preparing for replication'
+09-08 19:43:04 root 337:updating GUI with: 0
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
+09-08 19:43:04 root 332:updating GUI message: 'Replicating footprints'
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 861:Replicating footprints
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED10']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9ece37a3-9825-4cfc-8568-df0e98d3bfda
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3dc98dde-1649-4d0d-8c3d-9c7680cc6b53
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c0b88c71-2006-426b-8a5e-a29b4131c1d8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8ebd7d5a-6628-4b63-ad2a-acd2a0c2549f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ec06d2a6-dbc1-4a6f-b5fa-42579a1e499d
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2e084c40-7b36-4d49-9261-c01de2180f2f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED11']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d26a2b53-e2e9-4f1b-b3e3-0f895c65d36b
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0084703f-01ae-4574-80ac-0ba47543e780
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:84ffff05-f9ae-4bfa-ba66-730b2f807b23
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0aca64f6-0136-4a06-81e0-35fdb70081a1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:20d54566-1fbd-44a4-9fee-5c533d400b4f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c5bb7a65-eca9-45a0-a3f3-468a86af34f6
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED12']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5341c2ac-37d1-4499-a7bc-16ba4b89d175
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:114047df-9bbc-4c2f-9ee7-fccee6601de9
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:bf3331e0-1db0-47a0-9446-c28cd0a79482
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d384e7d1-78da-4d81-8ff6-3825c906fabb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3f316ac3-85ef-4080-8b1d-597d474ca56a
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a7830380-b14c-4ff1-a48b-970480ba3d5e
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED13']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b422fc7a-cc50-4c8d-b57a-aace09cf012a
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:bde5e01c-4972-4f72-944c-3791e00db9db
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:076a42c7-75f2-47c8-9ac7-a25d924dc5d1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ab5cba0c-0247-413e-adb4-2ba34978b806
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e3673726-2150-46f8-9c4a-8cd3316ce377
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:eccf7945-9a95-4af5-aee9-ce0691fe7650
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED14']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d9e2d7e5-c042-450e-8dda-2715ec604c6f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6e648bb5-50d2-46e3-b57a-f2d495e2a5a2
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:716c781a-6a56-4364-b081-7fb7e12c6976
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:48f19681-4b92-449a-801e-0ba404a58f8a
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c208433c-50e3-4c12-8efe-49b48396e142
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4265985a-c651-4083-949c-e413a06400d4
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED15']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a3eb23a7-750e-4999-b20d-134671f2c1d5
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f715e186-fd03-4164-889f-b040dc8e28ec
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6f6d2b7b-efba-4268-b824-465cb728606b
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:715d1f9e-bbfb-4fdc-bd58-07133ff1708e
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6961d8f1-7c39-4592-b41d-4ebc2c2e93eb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:213beac9-e6dc-4cef-a344-655565fb810c
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED16']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e381035e-93be-4654-b1d6-b1803f52dbaf
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:586a6200-b7a7-4cea-b4d2-1fb3a8cf70bc
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3792ad5b-44d7-41e1-8101-0bcb9855bb80
+09-08 19:43:04 root 337:updating GUI with: 22
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:db888e2c-97af-4ec2-8e50-f54c440d5100
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c7ae685c-eca8-4d95-9f51-f1f05df4300f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f4e602ca-23a7-44fb-8590-144e3de43556
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED17']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b274499f-b4b3-4805-91c4-f19476e88576
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f9421cfd-ba4a-4738-9f0e-46bf0538c681
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:37dc0a6a-4ec0-4eed-882f-fb6537b41e91
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a8ed1a2b-2823-46de-a763-3d3b02bbabe9
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7a4dcd2f-5ee4-4c09-9a65-101327b499b8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:84576f73-652a-478d-a51b-55474bffcedc
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED18']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5d5b243f-79a4-428b-a296-1908fbe270d1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f760a05b-16d3-4c4e-8b3a-d050c1cc0cea
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c75e17a3-5488-4b16-b3f9-31e8a445612c
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b118bb33-dd5b-4736-96ed-9a4f205fe91d
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:831f460e-9f18-4c88-a7ef-cebdd5072a26
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:fd5f1536-a55e-4512-8330-e17fd0d3f962
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED19']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d0b359f1-827f-4a69-9bad-bb7da67bc02d
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:1d0ae6a5-1ca8-4a87-a198-5902e2a64cbd
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e9681a83-5d6d-4454-ace3-459722bf0f2b
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:95d019f1-8d36-4587-8a80-caa7f7bb28a1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:399d8f7d-b528-4f45-80ab-279e9bf5ea7c
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7bd15be7-cc34-430c-afd9-2e94da4d5872
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED2']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:397418e0-9738-49ab-ab68-bfa29dc2badf
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7b7ba2b7-df15-4875-aa76-1f134da46dd1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ffbb6a35-4b40-43bd-8ddf-46f3b925542a
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:351b7f5b-5ca0-45ad-a915-f59f5379ff95
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9d10896d-e981-441a-ad04-90149916b3a2
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4626b918-a1d1-4b51-bf28-6a39e56ae245
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED20']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:fa7e083e-a510-47ab-ac5c-11222da5a67b
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f5fb9428-c9a6-44ec-9e29-40736f15bb6c
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:bf437084-8c91-41e8-95bf-0c97a8c10cbe
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4efee50a-b2bd-4cac-b7cb-1c5580eb893c
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d2b0abb7-50ba-43ae-9f4d-5de80a9f4cef
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:105cc026-6436-49e5-8efe-9db16f8db0ed
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED21']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:213bd767-12c8-4d0f-a7ad-b8252621fa70
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:10e238c6-069e-46e0-b63e-4260643f53f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3cc33f5b-0052-4c8c-b47b-e21ef2e77a07
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ba90f9b5-09bc-465d-a010-3feb95e28b59
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6ee2f698-fc66-4857-b117-7b0b71b47571
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3d773b3b-854e-4e7d-a4e1-5f1e519e6879
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED22']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8f9f4bd2-8e20-45ed-8b84-2dd1eaea723a
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6e2033bb-303d-4638-b712-7ce8d2063ce2
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:827dca70-58b8-450a-8fb5-e5128fc430af
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5c123be8-83a9-42b5-bc85-24e058bb7ce4
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:31d7de92-4a5c-412d-aba2-889f4c27161e
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0b5d4ccb-05a2-49e8-838a-271c301f94c7
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED23']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:76a8ec3d-3c98-4771-b919-64ed78f04d3d
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a917c5a8-84ad-41c5-bbe9-8f560851e5ac
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:da9cfb92-e97c-4e1d-ac81-c2e564f1633f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9d2135d9-77e2-4a4f-93f4-8c038b071867
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0bb905f9-39a0-4c4f-ad13-43b8c533fa5a
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:df341c01-0554-4ed4-99d7-6d9ebf13fb18
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED24']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e237afac-5c06-4bdf-835d-32f022811811
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:22fbbfe7-470b-42fd-a0c3-b9007549281b
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:77fcc98d-dd6e-481f-adca-633720db4762
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:793bfa19-e145-4909-8413-c7a80469557a
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:45d921fb-aa44-46be-a43d-c3131dea0ab8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:78c84b07-f851-4dd1-9ef3-9dc4636c7610
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED25']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:47e7423d-dfb7-4dd8-9be8-6c3ce00d59b2
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3d7a7958-0ad8-4b98-abc4-f89911be2405
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a3ada03f-3723-476e-90fc-a00c3edfccc9
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c76cb75f-8ec6-480b-880d-d383ea7bd487
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6a92742b-40f2-4349-a55a-8d6050b1f97c
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:46dcecd5-15d2-446c-88ea-a50ab26c3808
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED26']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:92e49302-e22d-45ea-a9bb-f8da675c0904
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6101cd82-f9e7-4d8c-a862-4d4f5270cf06
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b550bf0d-28a3-4e70-93e2-7cc77dea1681
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:92b10c1a-9f17-4a6d-8e02-24fb715f5166
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c4767503-6fda-4266-b958-06ffa467b7aa
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b4e966c3-42c9-4fe8-b783-9142291a55c7
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED27']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0490a766-be23-4a64-b3f9-903e010f4e30
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:894414d9-fd64-43fa-8bb0-53e31d052d16
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0e9a7b69-e2a6-41e6-83ed-715d7533bad2
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f1dff55a-56ac-48fb-b4e2-4ce21f33a332
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c2a86df2-80be-42fd-9227-102b7966a326
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:932883ff-3145-4836-a8fe-4c794c7ad09c
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED28']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:590fe005-341d-49a6-b1e2-562b2a2f35dd
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c691500d-42e1-471a-abcc-2ab8058c8349
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:593c254f-091e-40fe-bb91-feab28b79c49
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5f3549ab-aa29-4d20-a2c2-b8faf67a4cb8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a52e853b-4514-4c60-8152-1ba9712ca143
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d46e86c8-793e-4376-beae-06878311a8d4
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED29']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:51fef094-8d98-414c-ab50-0d83ee8a6742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2ab01b05-e14d-42b2-aab4-2e21f71fe842
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e4a93196-444b-4475-a294-c1835486f789
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4e6526d8-0e78-4f77-b535-a24f61038905
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f6596404-974e-400c-8a21-e8b6d77f813b
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b659925b-b257-4fdb-9ec9-bba4b4824b6a
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED3']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e151c4f7-28ab-4e74-834c-792aeb004a91
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6e33fa03-cab9-432e-b3c0-6958bb9f7ba3
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d61984c2-a0c7-4de5-ae6e-0481cdcc3f54
+09-08 19:43:04 root 337:updating GUI with: 70
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:01c54f78-e392-4153-9353-472a34ebb828
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7b554d5b-5e06-4b58-9195-003cb115afa5
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ed1d3219-bc29-4416-8f50-a19d2d0eaec9
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED30']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e392f000-252f-4785-9cfa-2aa3d83f343d
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c9b73c7f-479e-4c48-ae9d-3b08868d3590
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:898c0e18-f97b-4d79-8745-17541526a373
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:73b87d1f-3426-44e1-bac4-1a66ae094102
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f853e79e-f820-4109-b51c-e3e1f3d0d772
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:02c1ef5c-baf9-45fe-a0c5-10566dcf043b
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED31']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a926c388-59c4-440e-9339-03cd4f0f866f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a6fbe14c-59bd-4754-83ae-f35ce5104c4f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:af73727a-9896-48bc-b975-2375777ccd06
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0238aa70-1da3-44b7-89f3-359416c90ac0
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0ddeee7e-b590-4858-a2cf-04061b81214e
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:09e00db0-08f8-4fd8-93fb-5ade820494f1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED32']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0b5772b2-7316-45ee-909b-e786e0c4f4d2
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:94bd3f67-b267-40fa-9d62-69476a759a60
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5deacd7b-b597-4707-896f-2275b543b87e
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b39cd069-2353-4960-8d64-48accb633987
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:806b1b6e-acc7-4868-a109-ec821c4bd936
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:fd5551fc-da38-4cd7-93c6-4c71ab2181dd
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED4']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c9c9d5a2-79b0-4d6f-bc35-72b3b1e1a4b5
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e04a6ee0-d653-4708-a302-598600bb52b7
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:39c850d5-a52e-4d23-8195-5ecfdadd5a7b
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c69e0b31-7a20-4c02-99d6-8549e8262cd6
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:1b1cb843-d42f-4ef1-b173-676166834ff8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e0cf9e35-7106-4bbe-b3f7-f94c9b9f39f1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED5']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:426dace4-72f3-4ecc-bf7c-a70dd2e12617
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6d71b7dd-1206-4a23-8b79-f14a158a51d0
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:bf5a7bbc-925f-4d2b-802e-f97ed3023ddf
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4999ea97-8582-487e-8846-891130f15adf
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3d956456-8eb2-45eb-9178-163987e1e683
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9b9e42df-3a70-4b6b-bff1-05842cb72b39
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED6']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:60da3a0a-c5e1-464f-8537-94c79bbda919
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:1845d247-e969-4532-a723-222bbfaa0500
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:abe8f2bb-676c-4583-9333-682eff65b61a
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6f8e16a4-e0c2-4ca4-bf5a-1d5f55119eac
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:1cd1fd28-48e8-4eb9-ad79-99890ef233dc
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:62924141-f182-4814-a2cb-63aded5155ee
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED7']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8b3c6024-1fa2-457b-ab6d-55f1fe3a9286
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:722dcac0-e6f6-4b53-84dd-3b15653295c8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6f2c404c-b993-416a-9e06-a11918e3890d
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:13967cc2-412c-4a3f-a994-1b773ebba29c
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:04e05eec-2760-4d88-a77a-23d618145052
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f074fd9c-8476-489c-b9ac-0ca53a9747fb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED8']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c0c2afc9-67a9-404b-beda-36d89b243aa4
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:bfce603e-6331-4761-93d8-77e8e7473949
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:945018e3-66d1-4f57-8bad-22eb146ef5e1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ebfa344f-575d-43f3-b6dd-c7b610fd82d9
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:12dda707-7a20-4a8f-8dd8-724ef7102418
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7d326834-e7f2-4977-9a25-689967f370dd
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['LED_CTS', 'AdressLED9']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6162fc42-a7b3-411c-a0df-6fd6f5805aeb
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5d7d1b1f-3ae4-4492-afe2-34f137929680
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cc4eacdd-940e-4d65-b7ed-1c1f5a25d8c1
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b983b7cb-a3e1-4ee4-a660-334f50fefe29
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6fb89997-e742-470d-9272-31e8e0f139f8
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a0d86f81-b808-4ff1-acd6-79782be78044
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:69f45513-bf21-48f4-912c-ab0d20a5b431
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0e0350c7-896f-4ccd-b87f-bd0f8cf9b643
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:7c57ed2f-b8ec-4dac-a5a5-acaafed4657f
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:84bfa850-8cd5-4be7-aece-39419313cdc2
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:890ff7bc-132a-4b64-9f69-4a98fca5e742
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0d48fa6c-4afc-429d-804f-37eed1b86b73
+09-08 19:43:04 root 332:updating GUI message: 'Replicating tracks'
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating tracks
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED10']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED10'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED10/DI'), ('GND', 'GND'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED10/DO')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED11']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED10', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED11'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED11/DO'), ('DIN', '/LED_CTS/AdressLED10/DO'), ('+5V', '+5V'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED12']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED11', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED12'] :[('DIN', '/LED_CTS/AdressLED11/DO'), ('+5V', '+5V'), ('GND', 'GND'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED12/DO')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED13']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED12', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED13'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED12/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED13/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED14']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED13', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED14'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED14/DO'), ('DIN', '/LED_CTS/AdressLED13/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED15']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED14', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED15'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED14/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED15/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED16']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'LED_CTS', 'AdressLED1', 'DO'] and dst net: ['ROW 2 - 3'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2, match level 0.18
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED15', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED16'] :[('/LED_CTS/AdressLED1/DO', 'ROW 2 - 3'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED15/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED17']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED17'] :[('+5V', '+5V'), ('DIN', 'ROW 2 - 3'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED17/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED18']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED17', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED18'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED17/DO'), ('GND', 'GND'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED18/DO')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED19']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED18', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED19'] :[('DIN', '/LED_CTS/AdressLED18/DO'), ('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED19/DO'), ('GND', 'GND')]
+09-08 19:43:04 root 337:updating GUI with: 30
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED2']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED1', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED2'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED2/DO'), ('DIN', '/LED_CTS/AdressLED1/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED20']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED19', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED20'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED20/DO'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED19/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED21']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED20', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED21'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED21/DO'), ('DIN', '/LED_CTS/AdressLED20/DO'), ('+5V', '+5V'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED22']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED21', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED22'] :[('DIN', '/LED_CTS/AdressLED21/DO'), ('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED22/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED23']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED22', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED23'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED22/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED23/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED24']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'LED_CTS', 'AdressLED1', 'DO'] and dst net: ['ROW 3 - 4'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2, match level 0.18
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED23', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED24'] :[('/LED_CTS/AdressLED1/DO', 'ROW 3 - 4'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED23/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED25']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED25'] :[('DIN', 'ROW 3 - 4'), ('+5V', '+5V'), ('GND', 'GND'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED25/DO')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED26']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED25', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED26'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED26/DO'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED25/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED27']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED26', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED27'] :[('DIN', '/LED_CTS/AdressLED26/DO'), ('+5V', '+5V'), ('GND', 'GND'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED27/DO')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED28']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED27', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED28'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED28/DO'), ('DIN', '/LED_CTS/AdressLED27/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED29']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED28', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED29'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED28/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED29/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED3']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED2', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED3'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED2/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED3/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED30']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED29', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED30'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED30/DO'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED29/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED31']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED30', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED31'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED30/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED31/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED32']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'LED_CTS', 'AdressLED1', 'DO'] and dst net: ['ROW END'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED31', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED32'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', 'ROW END'), ('DIN', '/LED_CTS/AdressLED31/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED4']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED3', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED4'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED4/DO'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED3/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED5']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED4', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED5'] :[('DIN', '/LED_CTS/AdressLED4/DO'), ('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED5/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED6']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED5', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED6'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED5/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED6/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED7']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED6', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED7'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED7/DO'), ('DIN', '/LED_CTS/AdressLED6/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED8']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'LED_CTS', 'AdressLED1', 'DO'] and dst net: ['ROW 1- 2'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2, match level 0.31
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED7', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED8'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', 'ROW 1- 2'), ('DIN', '/LED_CTS/AdressLED7/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['LED_CTS', 'AdressLED9']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED9'] :[('+5V', '+5V'), ('DIN', 'ROW 1- 2'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED10/DI'), ('GND', 'GND')]
+09-08 19:43:04 root 332:updating GUI message: 'Replicating zones'
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1079:Replicating zones
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED10']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED10'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED10/DI'), ('GND', 'GND'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED10/DO')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED11']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED10', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED11'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED11/DO'), ('DIN', '/LED_CTS/AdressLED10/DO'), ('+5V', '+5V'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED12']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED11', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED12'] :[('DIN', '/LED_CTS/AdressLED11/DO'), ('+5V', '+5V'), ('GND', 'GND'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED12/DO')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED13']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED12', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED13'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED12/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED13/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED14']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED13', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED14'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED14/DO'), ('DIN', '/LED_CTS/AdressLED13/DO'), ('GND', 'GND')]
+09-08 19:43:04 root 337:updating GUI with: 16
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED15']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED14', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED15'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED14/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED15/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED16']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'LED_CTS', 'AdressLED1', 'DO'] and dst net: ['ROW 2 - 3'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2, match level 0.18
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED15', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED16'] :[('/LED_CTS/AdressLED1/DO', 'ROW 2 - 3'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED15/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED17']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED17'] :[('+5V', '+5V'), ('DIN', 'ROW 2 - 3'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED17/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED18']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED17', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED18'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED17/DO'), ('GND', 'GND'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED18/DO')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED19']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED18', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED19'] :[('DIN', '/LED_CTS/AdressLED18/DO'), ('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED19/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED2']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED1', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED2'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED2/DO'), ('DIN', '/LED_CTS/AdressLED1/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED20']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED19', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED20'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED20/DO'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED19/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED21']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED20', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED21'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED21/DO'), ('DIN', '/LED_CTS/AdressLED20/DO'), ('+5V', '+5V'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED22']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED21', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED22'] :[('DIN', '/LED_CTS/AdressLED21/DO'), ('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED22/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED23']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED22', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED23'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED22/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED23/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED24']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'LED_CTS', 'AdressLED1', 'DO'] and dst net: ['ROW 3 - 4'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2, match level 0.18
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED23', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED24'] :[('/LED_CTS/AdressLED1/DO', 'ROW 3 - 4'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED23/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED25']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED25'] :[('DIN', 'ROW 3 - 4'), ('+5V', '+5V'), ('GND', 'GND'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED25/DO')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED26']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED25', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED26'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED26/DO'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED25/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED27']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED26', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED27'] :[('DIN', '/LED_CTS/AdressLED26/DO'), ('+5V', '+5V'), ('GND', 'GND'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED27/DO')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED28']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED27', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED28'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED28/DO'), ('DIN', '/LED_CTS/AdressLED27/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED29']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED28', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED29'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED28/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED29/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED3']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED2', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED3'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED2/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED3/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED30']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED29', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED30'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED30/DO'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED29/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED31']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED30', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED31'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED30/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED31/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED32']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'LED_CTS', 'AdressLED1', 'DO'] and dst net: ['ROW END'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED31', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.74
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED32'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', 'ROW END'), ('DIN', '/LED_CTS/AdressLED31/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED4']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED3', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED4'] :[('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED4/DO'), ('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED3/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED5']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED4', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED5'] :[('DIN', '/LED_CTS/AdressLED4/DO'), ('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED5/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED6']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED5', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED6'] :[('+5V', '+5V'), ('DIN', '/LED_CTS/AdressLED5/DO'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED6/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED7']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED6', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED7'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED7/DO'), ('DIN', '/LED_CTS/AdressLED6/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED8']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'LED_CTS', 'AdressLED1', 'DO'] and dst net: ['ROW 1- 2'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2, match level 0.31
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['DIN'] and dst net: ['', 'LED_CTS', 'AdressLED7', 'DO'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.75
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED8'] :[('+5V', '+5V'), ('/LED_CTS/AdressLED1/DO', 'ROW 1- 2'), ('DIN', '/LED_CTS/AdressLED7/DO'), ('GND', 'GND')]
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['LED_CTS', 'AdressLED9']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['LED_CTS', 'AdressLED9'] :[('+5V', '+5V'), ('DIN', 'ROW 1- 2'), ('/LED_CTS/AdressLED1/DO', '/LED_CTS/AdressLED10/DI'), ('GND', 'GND')]
+09-08 19:43:04 root 332:updating GUI message: 'Replicating text'
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1168:Replicating text
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED10']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED11']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED12']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED13']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED14']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED15']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED16']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED17']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED18']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED19']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED2']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED20']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED21']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED22']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED23']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED24']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED25']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED26']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED27']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED28']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED29']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED3']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED30']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED31']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED32']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED4']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED5']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED6']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED7']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED8']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['LED_CTS', 'AdressLED9']
+09-08 19:43:04 root 332:updating GUI message: 'Replicating drawings'
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1219:Replicating drawings
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED10']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED11']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED12']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED13']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED14']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED15']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED16']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED17']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED18']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED19']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED2']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED20']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED21']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED22']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED23']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED24']
+09-08 19:43:04 root 337:updating GUI with: 51
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED25']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED26']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED27']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED28']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED29']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED3']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED30']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED31']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED32']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED4']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED5']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED6']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED7']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED8']
+09-08 19:43:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['LED_CTS', 'AdressLED9']
+09-08 19:43:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+09-08 19:43:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
+09-08 19:43:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
+ Make sure that you check the connectivity around:
+Footprint LED121, pad 3
+Footprint LED119, pad 3
+Footprint LED111, pad 3
+Footprint LED124, pad 3
+Footprint LED130, pad 3
+Footprint LED132, pad 3
+Footprint LED116, pad 3
+Footprint LED107, pad 3
+Footprint LED104, pad 3
+Footprint LED102, pad 3
+Footprint LED124, pad 1
+Footprint LED126, pad 3
+Footprint LED113, pad 3
+Footprint LED120, pad 3
+Footprint LED132, pad 1
+Footprint LED105, pad 3
+Footprint LED115, pad 3
+Footprint LED116, pad 1
+Footprint LED118, pad 3
+Footprint LED123, pad 3
+Footprint LED131, pad 3
+Footprint LED114, pad 3
+Footprint LED106, pad 3
+Footprint LED127, pad 3
+Footprint LED108, pad 3
+Footprint LED128, pad 3
+Footprint LED112, pad 3
+Footprint LED122, pad 3
+Footprint LED103, pad 3
+Footprint LED129, pad 3
+Footprint LED108, pad 1
+
