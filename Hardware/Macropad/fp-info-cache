@@ -1,4 +1,4 @@
-23828402085020392
+23836399273724038
 103P012BB100
 AMPHENOL_103P012BB100
 
@@ -34,6 +34,13 @@ audio belton reverb
 0
 7
 7
+BC847BS
+SOT65P210X110-6N
+SOT-363
+Transistor
+0
+6
+6
 BC856BQB-QZ
 SOT-8015-3
 
@@ -64791,13 +64798,6 @@ SOT-8015-3
 0
 3
 3
-LTST-C197KGKSKTCS2
-LTSTC197KGKSKTCS2
-LTST-C197KGKSKTCS2-2
-LED
-0
-4
-4
 Library
 CDSB
 
@@ -89214,13 +89214,41 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SW_Cherry_MX_1.00u_PCB
-SW_Cherry_MX_1.00u_PCB
-Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.00u PCB
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
 0
-2
-2
+8
+8
+SamacSys_Parts
+QFN40P300X300X90-21N
+QFN20_2023
+Integrated Circuit
+0
+21
+21
+SamacSys_Parts
+QFN50P300X300X100-17N-D
+LP5912-5.0DRVT
+Integrated Circuit
+0
+17
+17
+SamacSys_Parts
+QFN50P400X400X80-21N
+QFN-20
+Integrated Circuit
+0
+21
+21
+SamacSys_Parts
+SOT65P210X110-5N
+DCK(R-PDSO-G5)
+Integrated Circuit
+0
+5
+5
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -90894,13 +90922,6 @@ Integrated Circuit
 0
 33
 33
-TLV77333PDBVR
-SOT95P280X145-5N
-SOT-23
-Integrated Circuit
-0
-5
-5
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

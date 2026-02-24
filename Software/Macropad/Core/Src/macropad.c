@@ -7,8 +7,6 @@
 
 #include "macropad.h"
 
-
-
 uint16_t PORT_shifting(){
 	uint16_t PORTB = GPIOB->IDR; // & 0b0011011100111110;
 	PORTB = PORTB & 0b1111111100111111;

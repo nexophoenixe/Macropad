@@ -49,6 +49,8 @@ extern "C" {
 
 /* USER CODE END EM */
 
+void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -57,30 +59,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define switch6_Pin GPIO_PIN_6
-#define switch6_GPIO_Port GPIOA
-#define switch7_Pin GPIO_PIN_7
-#define switch7_GPIO_Port GPIOA
-#define switch1_Pin GPIO_PIN_1
-#define switch1_GPIO_Port GPIOB
-#define switch2_Pin GPIO_PIN_2
-#define switch2_GPIO_Port GPIOB
-#define switch10_Pin GPIO_PIN_10
-#define switch10_GPIO_Port GPIOB
-#define switch11_Pin GPIO_PIN_12
-#define switch11_GPIO_Port GPIOB
-#define switch12_Pin GPIO_PIN_13
-#define switch12_GPIO_Port GPIOB
-#define switch3_Pin GPIO_PIN_3
-#define switch3_GPIO_Port GPIOB
-#define switch4_Pin GPIO_PIN_4
-#define switch4_GPIO_Port GPIOB
-#define switch5_Pin GPIO_PIN_5
-#define switch5_GPIO_Port GPIOB
-#define switch8_Pin GPIO_PIN_8
-#define switch8_GPIO_Port GPIOB
-#define switch9_Pin GPIO_PIN_9
-#define switch9_GPIO_Port GPIOB
+#define SP1_CS_Pin GPIO_PIN_15
+#define SP1_CS_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
