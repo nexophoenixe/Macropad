@@ -1,2 +1,2 @@
 # Macropad
-DIY Project, involves STM32F411 as Macropad and STM32F334 as TouchSlider, not finished yet hallo.
+I wanted to create a Macropad with 12 Buttons and a Scroll-Wheel. Currently Working on other projects.
